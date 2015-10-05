@@ -1,0 +1,18 @@
+body {
+}
+img {
+    max-width: 100%;
+}
+#header {
+    padding-bottom: 0.6em;
+    padding-top: 0.6em;
+}
+#logoSylterm {
+    max-width: 60%;
+}
+#slider p {
+    position:absolute;
+    left: 10px;
+    top: 10px;
+    z-index: 10
+}
