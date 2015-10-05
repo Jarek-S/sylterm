@@ -1,3 +1,2 @@
 # sylterm
-strona www
-wizytówka firmy, z łątwym dodawaniem zdjęć do galerii przez użytkownika
+Strona www typu wizytówka firmy, z łatwym dodawaniem zdjęć do galerii przez użytkownika
