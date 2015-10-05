@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html lang="pl-PL">
+    <head>
+        <meta charset="utf-8" />
+        <title>Sylterm - o firmie</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/w3.css">
+        <link rel="stylesheet" href="css/w3-theme-blue-grey.css">
+        <link rel="stylesheet" href="css/sylterm.css">
+        
+    </head>
+    <body>
+        <header id="header" class="w3-container w3-row w3-theme-l2 w3-border-bottom">
+            <div class="w3-container w3-third w3-center"><img id="logoSylterm" src="img/logoS.png" alt="logo firmy Sylterm" /></div>
+            <div class="w3-container w3-rest w3-center"><h1>Sylterm najlepszy jest</h1></div>
+        </header>
+        <section class="w3-row">
+            <div class="w3-third">p</div>
+            <div class="w3-rest">
+                <div id="mapka"></div>
+                <p class="firma">
+                    <a id="nawigacja" href="https://www.google.com/maps/dir//%E2%80%9EMalex%E2%80%9D+Parys+Alexiou,+Grunwaldzka+7,+72-010+Police,+Polska/@53.5507052,14.5607303,15z/data=!4m12!1m3!3m2!1s0x0:0x8ed16638b4d0f776!2z4oCeTWFsZXjigJ0gUGFyeXMgQWxleGlvdQ!4m7!1m0!1m5!1m1!1s0x47aa7356473986f5:0x8ed16638b4d0f776!2m2!1d14.57103!2d53.551878" target="_blank">Przejdź do wyznaczania trasy</a>
+                </p>
+            </div>
+        </section>
+        <nav class="w3-row">
+            <div class="w3-third"></div>
+            <div class="w3-third"></div>
+            <div class="w3-third"></div>
+        </nav>
+        <footer class="w3-row">
+            <div class="w3-half"></div>
+            <div class="w3-half"></div>
+        </footer>
+        <script>
+            function initialize() {
+                var mapOptions = {
+                    zoom: 15,
+                    center: new google.maps.LatLng(53.551883, 14.571031),
+                    mapTypeControl: false
+                };
+                var map = new google.maps.Map(document.getElementById('mapka'), mapOptions);
+                var marker = new google.maps.Marker({
+                    position: map.getCenter(),
+                    map: map,
+                    title: 'Sylterm'
+                });
+                marker.setMap(map);
+            }
+            function loadScript() {
+                var script = document.createElement('script');
+                script.type = 'text/javascript';
+                script.src = 'https://maps.googleapis.com/maps/api/js?v=3&sensor=true&callback=initialize';
+                document.body.appendChild(script);
+            }
+            window.onload = loadScript;
+        </script>        
+    </body>
+</html>
