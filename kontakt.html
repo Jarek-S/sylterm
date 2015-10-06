@@ -3,7 +3,7 @@
 <html lang="pl-PL">
     <head>
         <meta charset="utf-8" />
-        <title>Sylterm - o firmie</title>
+        <title>Sylterm - kontakt</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/w3.css">
         <link rel="stylesheet" href="css/w3-theme-blue-grey.css">
@@ -41,12 +41,12 @@
                     mapTypeControl: false
                 };
                 var map = new google.maps.Map(document.getElementById('mapka'), mapOptions);
-                var marker = new google.maps.Marker({
-                    position: map.getCenter(),
-                    map: map,
-                    title: 'Sylterm'
+                var infoString = '<div>cośtam cośtam</div>'
+                var infoWindow = new google.maps.InfoWindow({
+                    content: infoString,
+                    position: map.getCenter()
                 });
-                marker.setMap(map);
+                infoWindow.open(map);
             }
             function loadScript() {
                 var script = document.createElement('script');
