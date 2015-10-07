@@ -7,30 +7,33 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/w3.css">
         <link rel="stylesheet" href="css/w3-theme-blue-grey.css">
+        <link rel="stylesheet" href="css/font-awesome-4.4.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="css/sylterm.css">
         <script src="js/jquery-1.11.3.min.js"></script>
         <script src="js/jquery.cycle2.min.js"></script>
     </head>
     <body>
-        <header id="header" class="w3-container w3-row w3-theme-l2 w3-border-bottom">
+        <header id="header" class="w3-container w3-row w3-theme-l1 w3-border-bottom">
             <div class="w3-container w3-half w3-center"><img id="logoSylterm" src="img/logoS.png" alt="logo firmy Sylterm" /></div>
             <div class="w3-container w3-rest w3-center"><h1>Sylterm najlepszy jest</h1></div>
         </header>
-        <section id="slider" class="cycle-slideshow" 
-            data-cycle-slides="div"
-            data-cycle-fx=fadeout
+        <section id="slider" class="cycle-slideshow"
+            data-cycle-fx="fadeout"
             data-cycle-pause-on-hover=true>
-        <div><img src="img/pod1.jpg" alt="baner1" /><p>Napis</p></div>
-        <div><img src="img/pod2.jpg" alt="baner2" /><p>Inny napis</p></div>
-        <div><img src="img/pod3.jpg" alt="baner3" /><p>Jeszcze inny napis</p></div>
+        <img src="img/pod1.jpg" alt="baner1" />
+        <img src="img/pod2.jpg" alt="baner2" />
+        <img src="img/pod3.jpg" alt="baner3" />
         </section>
         <nav class="w3-row">
-            <div class="w3-third"></div>
-            <div class="w3-third"></div>
-            <div class="w3-third"></div>
+            <div class="w3-third w3-card-2 w3-center w3-text-theme">
+                <h2><i class="fa fa-info-circle fa-2x"></i></h2>
+                <h2>O firmie</h2>
+            </div>
+            <div class="w3-third w3-card-2 w3-large w3-center"><p><i class="fa fa-camera-retro fa-3x"></i></p></div>
+            <div class="w3-third w3-card-2 w3-large w3-center"><p><i class="fa fa-map-signs fa-3x"></i></p></div>
         </nav>
         <footer class="w3-row">
-            <div class="w3-half"></div>
+            <div class="w3-half"><p>&copy; Sylterm 2015</p></div>
             <div class="w3-half"></div>
         </footer>
     </body>
