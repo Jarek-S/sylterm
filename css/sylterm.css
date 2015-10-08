@@ -21,3 +21,21 @@ img {
 #mapka {
     height: 400px;
 }
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-shadow: 0 0 5px #546e7a;
+}
+nav div {
+    min-height: 200px;
+    padding: 0 2em;
+    border-top: 1px solid #546e7a;
+}
+#icon {
+    margin-top: 2em;
+}
+footer p {
+    padding-left: 1em;
+    padding-right: 1em; 
+}
