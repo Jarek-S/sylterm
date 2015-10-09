@@ -39,8 +39,11 @@ footer p {
     padding-left: 1em;
     padding-right: 1em; 
 }
-@media (max-width: 600px) {
-    footer .w3-right {
+#footer-right {
+    text-align: right;
+}
+@media all and (max-width: 600px) {
+    #footer-right {
         text-align: left;
     }
 }
