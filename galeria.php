@@ -19,23 +19,25 @@
         </header>
         <section id="slider" class="cycle-slideshow"
             data-cycle-fx="fadeout">
-        <img src="img/pod1.jpg" alt="baner1" />
-        <img src="img/pod2.jpg" alt="baner2" />
-        <img src="img/pod3.jpg" alt="baner3" />
+<?php
+foreach (glob('img/galeria/*.*') as $fotka) {
+    echo '<img src="'.$fotka.'" alt="fotka" />';
+}
+?>
         </section>
         <nav class="w3-row w3-text-theme">
+            <a href="index.html">
+                <div class="w3-third w3-center">
+                    <p class="icon"><i class="fa fa-home fa-3x"></i></p>
+                    <h2>Strona główna</h2>
+                    <p>Powrót do strony startowej</p>
+                </div>
+            </a>
             <a href="firma.html">
                 <div class="w3-third w3-center">
                     <p class="icon"><i class="fa fa-sign-in fa-3x"></i></p>
                     <h2>O firmie</h2>
                     <p>Informacje o nas: co robimy, z kim współpracujemy...</p>
-                </div>
-            </a>
-            <a href="galeria.php">
-                <div class="w3-third w3-center">
-                    <p class="icon"><i class="fa fa-picture-o fa-3x"></i></p>
-                    <h2>Galeria</h2>
-                    <p>Nasze realizacje - czyli zdjęcia tego, co już zrobiliśmy</p>
                 </div>
             </a>
             <a href="kontakt.html">
