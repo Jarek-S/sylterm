@@ -18,18 +18,21 @@
             data-cycle-speed="1500"
             data-cycle-pager="#pager-min"
             data-cycle-pager-template="">
+            <div class="cycle-overlay"></div>
 <?php
     define('GALERIA_DIR', 'img/galeria/');
     define('DODATKI_DIR', 'img/galeria/min/');
+    define('OPISY', 'opisy.txt');
     $fotki = glob(GALERIA_DIR.'*.{jpg,JPG,png,PNG}',GLOB_BRACE);
-    $miniaturki = glob(DODATKI_DIR.'*.{jpg,JPG,png,PNG}',GLOB_BRACE);    
-    foreach ($fotki as $fotka) {        
-        echo '<img src="'.$fotka.'" alt="fotka" />';
+    $miniaturki = glob(DODATKI_DIR.'*.{jpg,JPG,png,PNG}',GLOB_BRACE);
+    $opisy = file(DODATKI_DIR.OPISY, FILE_IGNORE_NEW_LINES);
+    for ($i=0; $i<count($fotki); $i++) {            
+        echo '<img src="'.$fotki[$i].'" alt="fotka" data-cycle-desc="'.$opisy[$i].'"/>';
     }
     echo '</div>';
     echo '<div id="pager-min" class="cycle-pager external">';
-    foreach ($miniaturki as $fotka) {
-        echo '<img src="'.$fotka.'" alt="fotkam" />';
+    for ($i=0; $i<count($miniaturki); $i++) {
+        echo '<img src="'.$miniaturki[$i].'" alt="fotka mała" />';
     }
 ?>
             </div>
