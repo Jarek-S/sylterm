@@ -15,7 +15,7 @@
     <body>
         <header id="header" class="w3-container w3-row w3-theme-l1 w3-border-bottom">
             <div class="w3-container w3-half w3-center"><img id="logoSylterm" src="img/logoS.png" alt="logo firmy Sylterm" /></div>
-            <div class="w3-container w3-rest w3-center"><h1>Sylterm najlepszy jest</h1></div>
+            <div class="w3-container w3-twothird w3-center w3-hide-small"><h1>Sylterm najlepszy jest</h1></div>
         </header>
         <section id="slider" class="cycle-slideshow"
             data-cycle-fx="fadeout">
