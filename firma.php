@@ -20,8 +20,17 @@
             <div><p>Inny napis</p></div>
             <div><p>Jeszcze inny napis</p></div>
         </section>
-        <section id="partnerzy" class="w3-row">
-            <div>Tu będą loga</div>
+        <section id="partnerzy" class="w3-row w3-center">
+            <div>
+<?php
+    define('LOGOTYPY_DIR', 'img/logotypy/');
+    $fotki = glob(LOGOTYPY_DIR.'*.{jpg,JPG,png,PNG}',GLOB_BRACE);
+    for ($i=0; $i<count($fotki); $i++) {            
+        echo '<img src="'.$fotki[$i].'" alt="logo" />';
+    }
+?>
+            
+            </div>
         </section>
         <nav class="w3-row w3-text-theme">
             <a href="index.html">

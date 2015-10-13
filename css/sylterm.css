@@ -42,7 +42,10 @@ footer p {
 #footer-right {
     text-align: right;
 }
-
+#partnerzy img {
+    margin: 2em;
+    max-width: 30%;
+}
 @media all and (max-width: 600px) {
     #footer-right {
         text-align: left;
