@@ -61,7 +61,7 @@ footer p {
     padding: 0; 
     position: relative;
  }
-.cycle-slideshow img {
+#galeria .cycle-slideshow img {
     position: absolute;
     top: 0;
     left: 0;
@@ -73,16 +73,34 @@ footer p {
 
 /* in case script does not load */
 .cycle-slideshow img:first-child {
-    position: static; z-index: 100;
+    position: static;
+    z-index: 100;
 }
-.cycle-overlay { 
-    font-family: tahoma, arial;
-    position: absolute; bottom: 0; width: 100%; z-index: 600;
-    background: black; color: white; padding: 15px; opacity: .5;
+.cycle-overlay {
+    position: absolute; 
+    bottom: 0; 
+    width: 100%; 
+    z-index: 600;
+    background: black; 
+    color: white; 
+    padding: 15px; 
+    opacity: .5;
 }
-.cycle-pager > * { cursor: pointer;}
+.cycle-pager > * { 
+    cursor: pointer;
+}
 @media all and (max-width: 600px) {
+    footer {
+        line-height: 50%;
+    }
     #footer-right {
         text-align: left;
+    }
+    nav h2 + p {
+        display: none;
+        }
+    nav div {
+        min-height: 2em;
+        font-size: xx-small;
     }
 }
