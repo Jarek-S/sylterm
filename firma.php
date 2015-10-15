@@ -12,7 +12,7 @@
     </head>
     <body>
         <header id="header" class="w3-container w3-row w3-theme-l1 w3-border-bottom">
-            <div class="w3-container w3-half w3-center"><img id="logoSylterm" src="img/logoS.png" alt="logo firmy Sylterm" /></div>
+            <div class="w3-container w3-third w3-center"><img id="logoSylterm" src="img/logoS.png" alt="logo firmy Sylterm" /></div>
             <div class="w3-container w3-twothird w3-center w3-hide-small"><h1>Sylterm najlepszy jest</h1></div>
         </header>
         <section id="oFirmie" class="w3-row">
@@ -20,8 +20,17 @@
             <div><p>Inny napis</p></div>
             <div><p>Jeszcze inny napis</p></div>
         </section>
-        <section id="partnerzy" class="w3-row">
-            <div>Tu będą loga</div>
+        <section id="partnerzy" class="w3-row w3-center">
+            <div>
+<?php
+    define('LOGOTYPY_DIR', 'img/logotypy/');
+    $fotki = glob(LOGOTYPY_DIR.'*.{jpg,JPG,png,PNG}',GLOB_BRACE);
+    for ($i=0; $i<count($fotki); $i++) {            
+        echo '<img src="'.$fotki[$i].'" alt="logo" />';
+    }
+?>
+            
+            </div>
         </section>
         <nav class="w3-row w3-text-theme">
             <a href="index.html">

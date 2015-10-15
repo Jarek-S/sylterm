@@ -42,9 +42,65 @@ footer p {
 #footer-right {
     text-align: right;
 }
+#partnerzy img {
+    margin: 2em;
+    max-width: 30%;
+}
+#realizacje {
+    margin-top: 0;
+    padding: 0.6em 0 0.2em;
+}
 
+/*style dla galerii, uwaga na homepage (slider)!*/
+#galeria {
+    padding-bottom: 0.5em;
+}
+#galeria .cycle-slideshow {
+    max-width: 600px; 
+    margin: 0 auto 1em; 
+    padding: 0; 
+    position: relative;
+ }
+#galeria .cycle-slideshow img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0;
+    display: block;
+    border: 1px solid #455a64;
+}
+
+/* in case script does not load */
+.cycle-slideshow img:first-child {
+    position: static;
+    z-index: 100;
+}
+.cycle-overlay {
+    position: absolute; 
+    bottom: 0; 
+    width: 100%; 
+    z-index: 600;
+    background: black; 
+    color: white; 
+    padding: 15px; 
+    opacity: .5;
+}
+.cycle-pager > * { 
+    cursor: pointer;
+}
 @media all and (max-width: 600px) {
+    footer {
+        line-height: 50%;
+    }
     #footer-right {
         text-align: left;
+    }
+    nav h2 + p {
+        display: none;
+        }
+    nav div {
+        min-height: 2em;
+        font-size: xx-small;
     }
 }

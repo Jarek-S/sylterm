@@ -14,16 +14,34 @@
     </head>
     <body>
         <header id="header" class="w3-container w3-row w3-theme-l1 w3-border-bottom">
-            <div class="w3-container w3-half w3-center"><img id="logoSylterm" src="img/logoS.png" alt="logo firmy Sylterm" /></div>
+            <div class="w3-container w3-third w3-center"><img id="logoSylterm" src="img/logoS.png" alt="logo firmy Sylterm" /></div>
             <div class="w3-container w3-twothird w3-center w3-hide-small"><h1>Sylterm najlepszy jest</h1></div>
         </header>
-        <section id="slider" class="cycle-slideshow"
-            data-cycle-fx="fadeout">
+        <section id="galeria" class="w3-center w3-theme-l5">
+            <h2 id="realizacje">Nasze realizacje</h2>
+            <div class="cycle-slideshow"
+            data-cycle-fx="fadeout"
+            data-cycle-speed="1500"
+            data-cycle-pager="#pager-min"
+            data-cycle-pager-template="">
+            <div class="cycle-overlay"></div>
 <?php
-foreach (glob('img/galeria/*.*') as $fotka) {
-    echo '<img src="'.$fotka.'" alt="fotka" />';
-}
+    define('GALERIA_DIR', 'img/galeria/');
+    define('DODATKI_DIR', 'img/galeria/min/');
+    define('OPISY', 'opisy.txt');
+    $fotki = glob(GALERIA_DIR.'*.{jpg,JPG,png,PNG}',GLOB_BRACE);
+    $miniaturki = glob(DODATKI_DIR.'*.{jpg,JPG,png,PNG}',GLOB_BRACE);
+    $opisy = file(DODATKI_DIR.OPISY, FILE_IGNORE_NEW_LINES);
+    for ($i=0; $i<count($fotki); $i++) {            
+        echo '<img src="'.$fotki[$i].'" alt="fotka" data-cycle-desc="'.$opisy[$i].'"/>';
+    }
+    echo '</div>';
+    echo '<div id="pager-min" class="cycle-pager external">';
+    for ($i=0; $i<count($miniaturki); $i++) {
+        echo '<img src="'.$miniaturki[$i].'" alt="fotka mała" />';
+    }
 ?>
+            </div>
         </section>
         <nav class="w3-row w3-text-theme">
             <a href="index.html">
@@ -33,7 +51,7 @@ foreach (glob('img/galeria/*.*') as $fotka) {
                     <p>Powrót do strony startowej</p>
                 </div>
             </a>
-            <a href="firma.html">
+            <a href="firma.php">
                 <div class="w3-third w3-center">
                     <p class="icon"><i class="fa fa-sign-in fa-3x"></i></p>
                     <h2>O firmie</h2>
