@@ -6,18 +6,15 @@ img {
 #header {
     padding-bottom: 0.6em;
     padding-top: 0.6em;
+    color: #ff3e00;
+}
+#header h1 {    
+    font-weight: bold;
 }
 /*#logoSylterm {
     max-width: 60%;
 }*/
-#slider p {
-    position: absolute;
-    left: 10%;
-    bottom: 10%;
-    z-index: 10;
-    font-size: xx-large;
-    color: #ffd800;
-}
+
 #mapka {
     height: 400px;
 }
@@ -27,10 +24,13 @@ a {
 a:hover {
     text-shadow: 0 0 5px #546e7a;
 }
+nav {
+    padding: 0 10%;
+}
 nav div {
     min-height: 200px;
     padding: 0 2em;
-    border-top: 1px solid #546e7a;
+    border-top: 1px solid #cfd8dc;
 }
 .icon {
     margin-top: 2em;
@@ -67,14 +67,13 @@ footer p {
     left: 0;
     width: 100%;
     padding: 0;
-    display: block;
+    display: none;
     border: 1px solid #455a64;
 }
 
-/* in case script does not load */
+/* żeby nie migało */
 .cycle-slideshow img:first-child {
-    position: static;
-    z-index: 100;
+    display: block;
 }
 .cycle-overlay {
     position: absolute; 
@@ -85,6 +84,13 @@ footer p {
     color: white; 
     padding: 15px; 
     opacity: .5;
+    display: none;
+}
+div.cycle-overlay {
+    display: none;
+}
+div.cycle-overlay:first-child {
+    display: block;
 }
 .cycle-pager > * { 
     cursor: pointer;
