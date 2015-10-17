@@ -12,16 +12,26 @@
     </head>
     <body>
         <header id="header" class="w3-container w3-row w3-theme-l1 w3-border-bottom">
-            <div class="w3-container w3-third w3-center"><img id="logoSylterm" src="img/logoS.png" alt="logo firmy Sylterm" /></div>
-            <div class="w3-container w3-twothird w3-center w3-hide-small"><h1>Sylterm najlepszy jest</h1></div>
+            <div class="w3-container w3-half w3-center"><img id="logoSylterm" src="img/logoS.png" alt="logo firmy Sylterm" /></div>
+            <div class="w3-container w3-half w3-hide-small"><h1>Dodajemy trochę ciepła</h1></div>
         </header>
         <section id="oFirmie" class="w3-row">
-            <div><p>Napis</p></div>
-            <div><p>Inny napis</p></div>
-            <div><p>Jeszcze inny napis</p></div>
+            <div class="w3-container w3-half">
+                <div class="w3-container w3-card-4 w3-theme-l5">
+                    <h2 class="w3-center">Nasza firma</h2>
+                    <p>Napis</p>
+                </div>
+            </div>
+            <div class="w3-container w3-half">
+                <div class="w3-container w3-card-4 w3-theme-l5">
+                    <h2 class="w3-center">Nasza oferta</h2>
+                    <p>Inny napis</p>
+                </div>
+            </div>
         </section>
         <section id="partnerzy" class="w3-row w3-center">
             <div>
+                <h2>Nasi partnerzy</h2>
 <?php
     define('LOGOTYPY_DIR', 'img/logotypy/');
     $fotki = glob(LOGOTYPY_DIR.'*.{jpg,JPG,png,PNG}',GLOB_BRACE);
@@ -57,7 +67,7 @@
         </nav>
         <footer class="w3-row w3-theme-d3">
             <div class="w3-half"><p>&copy; Sylterm 2015</p></div>
-            <div class="w3-half"><p id="footer-right">Projekt i wykonanie: AS Media</p></div>
+            <div class="w3-half"><p id="footer-right">Projekt i wykonanie: JSpirydowicz</p></div>
         </footer>
     </body>
 </html>

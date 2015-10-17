@@ -10,6 +10,7 @@ img {
 }
 #header h1 {    
     font-weight: bold;
+    text-shadow: -1px -1px orange, 1px 1px brown;
 }
 /*#logoSylterm {
     max-width: 60%;
@@ -17,6 +18,10 @@ img {
 
 #mapka {
     height: 400px;
+}
+#mapka h4, #mapka p {
+    line-height: 0.5em;
+    margin-bottom: 0.4em;
 }
 a {
     text-decoration: none;
@@ -26,6 +31,13 @@ a:hover {
 }
 nav {
     padding: 0 10%;
+}
+#oFirmie {
+    padding: 0.5em 10%;
+}
+#oFirmie h2, #oFirmie p {
+    color: #546e7a;
+    text-shadow: -1px -1px #263238, 1px 1px white;
 }
 nav div {
     min-height: 200px;
@@ -94,6 +106,10 @@ div.cycle-overlay:first-child {
 }
 .cycle-pager > * { 
     cursor: pointer;
+}
+.cycle-pager img {
+    margin: 0.3em;
+    border: 1px solid #455a64;
 }
 @media all and (max-width: 600px) {
     footer {
