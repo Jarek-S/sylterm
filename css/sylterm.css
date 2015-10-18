@@ -15,7 +15,11 @@ img {
 /*#logoSylterm {
     max-width: 60%;
 }*/
-
+#adres {
+    padding: 3em 7%;
+    text-shadow: -1px -1px #263238, 1px 1px white;
+    color: #455a64;
+}
 #mapka {
     height: 400px;
 }
@@ -23,8 +27,12 @@ img {
     line-height: 0.5em;
     margin-bottom: 0.4em;
 }
+#guzik {
+    border-radius: 2em;
+    border-style: outset;
+}
 a {
-    text-decoration: none;
+    text-decoration: none;    
 }
 a:hover {
     text-shadow: 0 0 5px #546e7a;
@@ -39,10 +47,12 @@ nav {
     color: #546e7a;
     text-shadow: -1px -1px #263238, 1px 1px white;
 }
+#oFirmie div div:last-child p {
+    padding-left: 1em;
+}
 nav div {
     min-height: 200px;
     padding: 0 2em;
-    border-top: 1px solid #cfd8dc;
 }
 .icon {
     margin-top: 2em;
@@ -57,6 +67,9 @@ footer p {
 #partnerzy img {
     margin: 2em;
     max-width: 30%;
+}
+#partnerzy h2 {
+    padding-top: 0.5em;
 }
 #realizacje {
     margin-top: 0;
@@ -124,5 +137,6 @@ div.cycle-overlay:first-child {
     nav div {
         min-height: 2em;
         font-size: xx-small;
+        border-top: 1px solid #cfd8dc;
     }
 }

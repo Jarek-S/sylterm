@@ -16,22 +16,19 @@
             <div class="w3-container w3-half w3-hide-small"><h1>Dodajemy trochę ciepła</h1></div>
         </header>
         <section id="oFirmie" class="w3-row">
-            <div class="w3-container w3-half">
-                <div class="w3-container w3-card-4 w3-theme-l5">
+            <div class="w3-container w3-card-4 w3-theme-l5">
+                <div class="w3-half">
                     <h2 class="w3-center">Nasza firma</h2>
-                    <p>Napis</p>
+                    <p>Pierwszy napis</p>
                 </div>
-            </div>
-            <div class="w3-container w3-half">
-                <div class="w3-container w3-card-4 w3-theme-l5">
+                <div class="w3-half">
                     <h2 class="w3-center">Nasza oferta</h2>
                     <p>Inny napis</p>
                 </div>
             </div>
         </section>
-        <section id="partnerzy" class="w3-row w3-center">
-            <div>
-                <h2>Nasi partnerzy</h2>
+        <section id="partnerzy" class="w3-row w3-center w3-theme-l5">            
+            <h2>Nasi partnerzy</h2>
 <?php
     define('LOGOTYPY_DIR', 'img/logotypy/');
     $fotki = glob(LOGOTYPY_DIR.'*.{jpg,JPG,png,PNG}',GLOB_BRACE);
@@ -39,8 +36,6 @@
         echo '<img src="'.$fotki[$i].'" alt="logo" />';
     }
 ?>
-            
-            </div>
         </section>
         <nav class="w3-row w3-text-theme">
             <a href="index.html">
