@@ -6,31 +6,53 @@ img {
 #header {
     padding-bottom: 0.6em;
     padding-top: 0.6em;
+    color: #ff3e00;
+}
+#header h1 {    
+    font-weight: bold;
+    text-shadow: -1px -1px orange, 1px 1px brown;
 }
 /*#logoSylterm {
     max-width: 60%;
 }*/
-#slider p {
-    position: absolute;
-    left: 10%;
-    bottom: 10%;
-    z-index: 10;
-    font-size: xx-large;
-    color: #ffd800;
+#adres {
+    padding: 3em 7%;
+    text-shadow: -1px -1px #263238, 1px 1px white;
+    color: #455a64;
 }
 #mapka {
     height: 400px;
 }
+#mapka h4, #mapka p {
+    line-height: 0.5em;
+    margin-bottom: 0.4em;
+}
+#guzik {
+    border-radius: 2em;
+    border-style: outset;
+}
 a {
-    text-decoration: none;
+    text-decoration: none;    
 }
 a:hover {
     text-shadow: 0 0 5px #546e7a;
 }
+nav {
+    padding: 0 10%;
+}
+#oFirmie {
+    padding: 0.5em 10%;
+}
+#oFirmie h2, #oFirmie p {
+    color: #546e7a;
+    text-shadow: -1px -1px #263238, 1px 1px white;
+}
+#oFirmie div div:last-child p {
+    padding-left: 1em;
+}
 nav div {
     min-height: 200px;
     padding: 0 2em;
-    border-top: 1px solid #546e7a;
 }
 .icon {
     margin-top: 2em;
@@ -45,6 +67,9 @@ footer p {
 #partnerzy img {
     margin: 2em;
     max-width: 30%;
+}
+#partnerzy h2 {
+    padding-top: 0.5em;
 }
 #realizacje {
     margin-top: 0;
@@ -67,14 +92,13 @@ footer p {
     left: 0;
     width: 100%;
     padding: 0;
-    display: block;
+    display: none;
     border: 1px solid #455a64;
 }
 
-/* in case script does not load */
+/* żeby nie migało */
 .cycle-slideshow img:first-child {
-    position: static;
-    z-index: 100;
+    display: block;
 }
 .cycle-overlay {
     position: absolute; 
@@ -85,9 +109,20 @@ footer p {
     color: white; 
     padding: 15px; 
     opacity: .5;
+    display: none;
+}
+div.cycle-overlay {
+    display: none;
+}
+div.cycle-overlay:first-child {
+    display: block;
 }
 .cycle-pager > * { 
     cursor: pointer;
+}
+.cycle-pager img {
+    margin: 0.3em;
+    border: 1px solid #455a64;
 }
 @media all and (max-width: 600px) {
     footer {
@@ -102,5 +137,6 @@ footer p {
     nav div {
         min-height: 2em;
         font-size: xx-small;
+        border-top: 1px solid #cfd8dc;
     }
 }
