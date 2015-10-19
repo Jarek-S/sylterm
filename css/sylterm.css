@@ -43,7 +43,7 @@ nav {
 #oFirmie {
     padding: 0.5em 10%;
 }
-#oFirmie h2, #oFirmie p {
+#oFirmie h2, #oFirmie p, #partnerzy h2, #realizacje {
     color: #546e7a;
     text-shadow: -1px -1px #263238, 1px 1px white;
 }
