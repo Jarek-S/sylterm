@@ -19,11 +19,15 @@
             <div class="w3-container w3-card-4 w3-theme-l5">
                 <div class="w3-half">
                     <h2 class="w3-center">Nasza firma</h2>
-                    <p>Pierwszy napis</p>
+                    <p>Działamy na polickim rynku od roku 2011. Wykonujemy instalacje centralnego ogrzewania, wodno-kanalizacyjne i gazowe. Mamy doświadczonych pracowników, zlecenia realizujemy dokładnie i terminowo.</p>
+                    <p>Podejmujemy się również drobnych robót, takich jak usuwanie wycieków czy montaż urządzeń sanitarnych. Główną dziedziną naszej działalności są usługi, ale mamy także sklep, w którym każdy może kupić potrzebne mu materiały.</p>
+                    <p>Wszystkie oferowane przez nas systemy są objęte gwarancją, której okres może wynosić nawet 10 lat. Jesteśmy przekonani, że profesjonalnym podejściem, zaangażowaniem i uczciwością zapracowaliśmy sobie na dobrą opinię naszych Klientów.</p>
                 </div>
                 <div class="w3-half">
                     <h2 class="w3-center">Nasza oferta</h2>
-                    <p>Inny napis</p>
+                    <p>Nasze usługi są skrojone na miarę Waszych oczekiwań. Zawsze najpierw poznajemy potrzeby naszych Klientów, a potem proponujemy optymalne rozwiązania. Nam również zależy, abyście byli zadowoleni, a wszystko działało bez zarzutu.</p>
+                    <p>Możemy dla Państwa dobrać i wykonać instalację centralnego ogrzewania, wodno-kanalizacyjną, gazową, a także przyłącza wodne i gazowe. Zaprojektujemy i zamontujemy ogrzewanie podłogowe, systemy solarne oraz kominki: tradycyjne albo z płaszczem wodnym.</p>
+                    <p>Możecie nam też zlecić montaż lub wymianę podgrzewaczy gazowych, a nawet całego wyposażenia kotłowni - z piecem gazowym, olejowym lub na paliwo stale (węgiel, miał, drewno). Oprócz tego oferujemy zabudowy kominkowe, przydomowe oczyszczalnie ścieków, wkłady kominowe, kosztorysowanie robót instalacyjnych i doradztwo techniczne.</p>
                 </div>
             </div>
         </section>
