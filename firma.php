@@ -22,12 +22,24 @@
                     <p>Działamy na polickim rynku od roku 2011. Wykonujemy instalacje centralnego ogrzewania, wodno-kanalizacyjne i gazowe. Mamy doświadczonych pracowników, zlecenia realizujemy dokładnie i terminowo.</p>
                     <p>Podejmujemy się również drobnych robót, takich jak usuwanie wycieków czy montaż urządzeń sanitarnych. Główną dziedziną naszej działalności są usługi, ale mamy także sklep, w którym każdy może kupić potrzebne mu materiały.</p>
                     <p>Wszystkie oferowane przez nas systemy są objęte gwarancją, której okres może wynosić nawet 10 lat. Jesteśmy przekonani, że profesjonalnym podejściem, zaangażowaniem i uczciwością zapracowaliśmy sobie na dobrą opinię naszych Klientów.</p>
+                    <p>Nasze usługi są skrojone na miarę Waszych oczekiwań. Zawsze najpierw poznajemy potrzeby naszych Klientów, a potem proponujemy optymalne rozwiązania. Nam również zależy, abyście byli zadowoleni, a wszystko działało bez zarzutu.</p>
                 </div>
                 <div class="w3-half">
                     <h2 class="w3-center">Nasza oferta</h2>
-                    <p>Nasze usługi są skrojone na miarę Waszych oczekiwań. Zawsze najpierw poznajemy potrzeby naszych Klientów, a potem proponujemy optymalne rozwiązania. Nam również zależy, abyście byli zadowoleni, a wszystko działało bez zarzutu.</p>
-                    <p>Możemy dla Państwa dobrać i wykonać instalację centralnego ogrzewania, wodno-kanalizacyjną, gazową, a także przyłącza wodne i gazowe. Zaprojektujemy i zamontujemy ogrzewanie podłogowe, systemy solarne oraz kominki: tradycyjne albo z płaszczem wodnym.</p>
-                    <p>Możecie nam też zlecić montaż lub wymianę podgrzewaczy gazowych, a nawet całego wyposażenia kotłowni - z piecem gazowym, olejowym lub na paliwo stale (węgiel, miał, drewno). Oprócz tego oferujemy zabudowy kominkowe, przydomowe oczyszczalnie ścieków, wkłady kominowe, kosztorysowanie robót instalacyjnych i doradztwo techniczne.</p>
+                    <ul id="oferta" class="w3-ul w3-small w3-card-4">
+                        <li>Instalacje centralnego ogrzewania, wodno-kanalizacyjne i gazowe</li>
+                        <li>Przyłącza wodne i gazowe</li>
+                        <li>Ogrzewanie podłogowe</li>
+                        <li>Systemy solarne</li>
+                        <li>Kotłownie gazowe, olejowe, na paliwa stałe (węgiel, miał, drewno)</li>
+                        <li>Kominki z płaszczem wodnym</li>
+                        <li>Kominki tradycyjne (powietrzne)</li>
+                        <li>Zabudowy kominkowe</li>
+                        <li>Kosztorysowanie robót instalacyjnych</li>
+                        <li>Montaż lub wymiana kotłów i podgrzewaczy gazowych</li>
+                        <li>Przydomowe oczyszczalnie ścieków</li>
+                        <li>Wkłady kominowe</li>
+                    </ul>
                 </div>
             </div>
         </section>

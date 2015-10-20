@@ -43,12 +43,13 @@ nav {
 #oFirmie {
     padding: 0.5em 10%;
 }
-#oFirmie h2, #oFirmie p, #partnerzy h2, #realizacje {
+#oFirmie h2, #oFirmie p, #partnerzy h2, #realizacje, #oferta {
     color: #546e7a;
     text-shadow: -1px -1px #263238, 1px 1px white;
 }
-#oFirmie div div:last-child p {
+#oFirmie div {
     padding-left: 1em;
+    padding-right: 1em;
 }
 nav div {
     min-height: 200px;
