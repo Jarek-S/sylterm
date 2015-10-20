@@ -50,7 +50,7 @@ nav {
 #oFirmie div {
     padding-left: 1em;
     padding-right: 1em;
-    padding-bottom: 1em;
+    padding-bottom: 0.3em;
 }
 nav div {
     min-height: 200px;
@@ -140,5 +140,8 @@ div.cycle-overlay:first-child {
         min-height: 2em;
         font-size: xx-small;
         border-top: 1px solid #cfd8dc;
+    }
+    #oFirmie div {
+        padding-bottom: 1em;
     }
 }
