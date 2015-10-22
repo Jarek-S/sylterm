@@ -12,12 +12,8 @@ img {
     font-weight: bold;
     text-shadow: -1px -1px orange, 1px 1px brown;
 }
-/*#logoSylterm {
-    max-width: 60%;
-}*/
 #adres {
     padding: 3em 7%;
-    text-shadow: -1px -1px #263238, 1px 1px white;
     color: #455a64;
 }
 #mapka {
@@ -45,7 +41,6 @@ nav {
 }
 #oFirmie h2, #oFirmie p, #partnerzy h2, #realizacje, #oferta {
     color: #546e7a;
-    text-shadow: -1px -1px #263238, 1px 1px white;
 }
 #oFirmie div {
     padding-left: 1em;

@@ -5,16 +5,19 @@
         <meta charset="utf-8" />
         <title>Sylterm - realizacje</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="css/w3.css">
+        <meta name="description" content="Strona firmy Sylterm z Polic, zajmującej się instalacjami c.o. i wod-kan">
+        <meta name="keywords" content="usługi, ogrzewanie, hydraulika, instalacje, solarne, grzejniki, kaloryfery">
+        <meta name="author" content="Jarosław Spirydowicz">
+        <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
         <link rel="stylesheet" href="css/w3-theme-blue-grey.css">
-        <link rel="stylesheet" href="css/font-awesome-4.4.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="css/sylterm.css">
         <script src="js/jquery-1.11.3.min.js"></script>
         <script src="js/jquery.cycle2.min.js"></script>
     </head>
     <body>
         <header id="header" class="w3-container w3-row w3-theme-l1 w3-border-bottom">
-            <div class="w3-container w3-half w3-center"><img id="logoSylterm" src="img/logoS.png" alt="logo firmy Sylterm" /></div>
+            <div class="w3-container w3-half w3-center"><img src="img/logoS.png" alt="logo firmy Sylterm" /></div>
             <div class="w3-container w3-half w3-hide-small"><h1>Dodajemy trochę ciepła</h1></div>
         </header>
         <section id="galeria" class="w3-center w3-theme-l5">
