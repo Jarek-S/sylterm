@@ -12,7 +12,7 @@
         <link rel="stylesheet" href="css/w3-theme-blue-grey.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="css/sylterm.css">
-        <script src="js/jquery-1.11.3.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <script src="js/jquery.cycle2.min.js"></script>
     </head>
     <body>
