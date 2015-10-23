@@ -23,7 +23,7 @@
     define('GALERIA_DIR', 'img/galeria/');
     define('DODATKI_DIR', 'img/galeria/min/');
     define('OPISY', 'opisy.txt');
-    $fotki = glob(GALERIA_DIR.'*.{jpg,JPG,png,PNG}',GLOB_BRACE);
+    $fotki = glob(GALERIA_DIR.'*.{jpg,JPG,png,PNG}',GLOB_BRACE); //uwaga, sortowanie najpierw według kolejności masek
     $miniaturki = glob(DODATKI_DIR.'*.{jpg,JPG,png,PNG}',GLOB_BRACE);
     $opisy = file(DODATKI_DIR.OPISY, FILE_IGNORE_NEW_LINES);
     for ($i=0; $i<count($fotki); $i++) {            
