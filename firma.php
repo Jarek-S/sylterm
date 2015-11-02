@@ -5,9 +5,10 @@
         <meta charset="utf-8" />
         <title>Sylterm - o firmie</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="Strona firmy Sylterm z Polic, zajmującej się instalacjami c.o. i wod-kan">
+        <meta name="description" content="Informacje o firmie Sylterm z Polic, zajmującej się instalacjami c.o. i wod-kan">
         <meta name="keywords" content="usługi, ogrzewanie, hydraulika, instalacje, solarne, grzejniki, kaloryfery">
         <meta name="author" content="Jarosław Spirydowicz">
+        <base href="http://sylterm.pl/">
         <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
         <link rel="stylesheet" href="css/w3-theme-blue-grey.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
